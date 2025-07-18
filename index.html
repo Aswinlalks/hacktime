@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokémon Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-yellow-100 to-pink-200 min-h-screen font-sans">
+  <div class="max-w-3xl mx-auto p-8">
+    <h1 class="text-4xl font-bold text-center text-red-600 mb-6">Ash Ketchum's Pokémon Portfolio</h1>
+
+    <!-- Trainer Info -->
+    <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+      <h2 class="text-xl font-semibold mb-2">🎒 Trainer Profile</h2>
+      <p><strong>Name:</strong> Ash Ketchum</p>
+      <p><strong>Region:</strong> Pallet Town, Kanto</p>
+      <p><strong>Badge Count:</strong> 8</p>
+      <p><strong>Goal:</strong> Pokémon Master</p>
+    </div>
+
+    <!-- Pokémon Cards -->
+    <h2 class="text-2xl font-semibold text-center text-blue-700 mb-4">🔥 My Pokémon</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <!-- Pokémon Card -->
+      <div class="bg-white rounded-xl p-4 shadow-md flex items-center space-x-4">
+        <img src="https://img.pokemondb.net/artwork/large/pikachu.jpg" alt="Pikachu" class="w-24 h-24 rounded-xl">
+        <div>
+          <h3 class="text-lg font-bold text-yellow-600">Pikachu</h3>
+          <p>⚡ Electric Type</p>
+          <p>Level: 50</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl p-4 shadow-md flex items-center space-x-4">
+        <img src="https://img.pokemondb.net/artwork/large/charizard.jpg" alt="Charizard" class="w-24 h-24 rounded-xl">
+        <div>
+          <h3 class="text-lg font-bold text-orange-600">Charizard</h3>
+          <p>🔥 Fire/Flying Type</p>
+          <p>Level: 65</p>
+        </div>
+      </div>
+
+      <!-- Add more Pokémon cards below -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-10 text-center text-sm text-gray-600">
+      <p>&copy; 2025 Pokémon League | Designed by Aswin Lal</p>
+    </footer>
+  </div>
+</body>
+</html>
