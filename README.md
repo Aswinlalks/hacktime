@@ -1,4 +1,5 @@
 # 🧢 Pokémon Trainer Portfolio
+![Banner](assets/banner.png)
 
 Welcome to my **Pokémon Trainer Portfolio** — a fun, responsive web page showcasing my Pokémon journey, trainer profile, and current battle team!
 
